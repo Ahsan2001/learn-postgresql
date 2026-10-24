@@ -1,20 +1,41 @@
-# Delete Database
+# Delete a Database in PostgreSQL
 
+This guide explains how to delete an existing PostgreSQL database.
 
-#### 1) Listing all the database 
-   
-    SELECT datname FROM pg_database;
+## 1) View available databases
 
-    \l
+Before deleting a database, check the list of existing databases:
 
+```sql
+SELECT datname FROM pg_database;
+```
 
-#### 2) GO to PG4 disconnect database 
+Or:
 
+```sql
+\l
+```
 
+## 2) Disconnect the database in pgAdmin
 
-#### 3) Write command to delete database
+If the database is open in pgAdmin 4, disconnect it before deleting it.
 
-	drop database test; 
+This prevents errors caused by deleting an active database.
 
+## 3) Delete the database
 
-#### 4) GO to PG4 refresh the page F5 
+Run the following SQL command:
+
+```sql
+drop database test;
+```
+
+This permanently deletes the `test` database.
+
+## 4) Refresh pgAdmin
+
+Go back to pgAdmin 4 and press `F5` to refresh the database list.
+
+The deleted database should no longer appear in the list.
+
+Note: Be careful when deleting a database because the data inside it will be removed permanently.

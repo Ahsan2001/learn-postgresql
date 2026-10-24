@@ -1,12 +1,29 @@
-# Change Database
+# Change Database in PostgreSQL
 
+This guide explains how to switch from one PostgreSQL database to another.
 
-#### 1) Listing all the database 
-   
-    SELECT datname FROM pg_database;
+## 1) View available databases
 
-    \l
+Before changing databases, list the available databases:
 
-#### 2) Write command to change database
+```sql
+SELECT datname FROM pg_database;
+```
 
-	\c test 
+Or:
+
+```sql
+\l
+```
+
+## 2) Connect to a different database
+
+Use the following command to switch to the `test` database:
+
+```sql
+\c test
+```
+
+This connects the current session to the `test` database.
+
+Once connected, you can run queries and create tables in that database.
