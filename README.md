@@ -19,6 +19,7 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 7. [CRUD - Reading Data in Table](./07-crud-Reading-data-in-table.md) - Read records from a PostgreSQL table
 8. [CRUD - Updating Data in a Table](./08-crud-updating-data-in-table.md) - Update existing records in a PostgreSQL table
 9. [CRUD - Deleting Data from a Table](./09-crud-deleting-data-in-table.md) - Delete records from a PostgreSQL table
-10. [Task 01 - Create an Employees Table](./11-task-01-create-bank-employee.md) - Practice creating a table with data types and constraints
+10. [Data Types and Constraints](./10-datatypes-and-constraint.md) - Learn PostgreSQL data types and use constraints to keep table data valid
+11. [Task 01 - Create an Employees Table](./11-task-01-create-bank-employee.md) - Practice creating a table with data types and constraints
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
