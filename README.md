@@ -24,5 +24,6 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 12. [SQL Clauses](./12-clauses.md) - Practice using `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE`
 13. [SQL Operators](./13-operators.md) - Practice using logical and relational operators, `IN`, `NOT IN`, and `BETWEEN`
 14. [Aggregate Functions](./14-aggregate-functions.md) - Practice using `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`
+15. [GROUP BY](./15-group-by.md) - Group rows and calculate aggregate results for each group
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
