@@ -21,5 +21,7 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 9. [CRUD - Deleting Data from a Table](./09-crud-deleting-data-in-table.md) - Delete records from a PostgreSQL table
 10. [Data Types and Constraints](./10-datatypes-and-constraint.md) - Learn PostgreSQL data types and use constraints to keep table data valid
 11. [Task 01 - Create an Employees Table](./11-task-01-create-bank-employee.md) - Practice creating a table with data types and constraints
+12. [SQL Clauses](./12-clauses.md) - Practice using `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE`
+13. [SQL Operators](./13-operators.md) - Practice using logical and relational operators, `IN`, `NOT IN`, and `BETWEEN`
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
