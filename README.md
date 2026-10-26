@@ -23,5 +23,6 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 11. [Task 01 - Create an Employees Table](./11-task-01-create-bank-employee.md) - Practice creating a table with data types and constraints
 12. [SQL Clauses](./12-clauses.md) - Practice using `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE`
 13. [SQL Operators](./13-operators.md) - Practice using logical and relational operators, `IN`, `NOT IN`, and `BETWEEN`
+14. [Aggregate Functions](./14-aggregate-functions.md) - Practice using `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
