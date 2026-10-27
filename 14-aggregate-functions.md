@@ -1,6 +1,6 @@
 # PostgreSQL Aggregate Functions
 
-The examples below use the `employees` table from [Task 01](./11-task-01-create-bank-employee.md).
+The examples below use the `employees` table from [Task 01](./11-task-01.md).
 
 ## COUNT
 

@@ -2,7 +2,7 @@
 
 `GROUP BY` combines rows that have the same value in one or more columns so aggregate functions can calculate a result for each group.
 
-The examples below use the `employees` table from [Task 01](./11-task-01-create-bank-employee.md).
+The examples below use the `employees` table from [Task 01](./11-task-01.md).
 
 ## Count employees in each department
 

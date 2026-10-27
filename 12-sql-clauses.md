@@ -1,6 +1,6 @@
 # SQL Clauses in PostgreSQL
 
-This lesson covers `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE` using the `employees` table from [Task 01](./11-task-01-create-bank-employee.md).
+This lesson covers `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE` using the `employees` table from [Task 01](./11-task-01.md).
 
 ## 1. Definitions
 

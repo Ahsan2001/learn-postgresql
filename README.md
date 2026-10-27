@@ -8,7 +8,7 @@ This repository contains beginner-friendly PostgreSQL tutorials and practice tas
 These lessons are designed to help beginners learn the core PostgreSQL operations needed to work with databases effectively.
 
 
-### Getting Started
+### Lessons
 
 1. [Installation](./01-installation.md) - Install PostgreSQL on Windows
 2. [Create a Database](./02-create-database.md) - Create a new database in PostgreSQL
@@ -20,10 +20,12 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 8. [CRUD - Updating Data in a Table](./08-crud-updating-data-in-table.md) - Update existing records in a PostgreSQL table
 9. [CRUD - Deleting Data from a Table](./09-crud-deleting-data-in-table.md) - Delete records from a PostgreSQL table
 10. [Data Types and Constraints](./10-datatypes-and-constraint.md) - Learn PostgreSQL data types and use constraints to keep table data valid
-11. [Task 01 - Create an Employees Table](./11-task-01-create-bank-employee.md) - Practice creating a table with data types and constraints
-12. [SQL Clauses](./12-clauses.md) - Practice using `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE`
-13. [SQL Operators](./13-operators.md) - Practice using logical and relational operators, `IN`, `NOT IN`, and `BETWEEN`
+11. [Task 01 - Create an Employees Table](./11-task-01.md) - Practice creating an employees table
+12. [SQL Clauses](./12-sql-clauses.md) - Practice using `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE`
+13. [SQL Operators](./13-sql-operators.md) - Practice using logical and relational operators, `IN`, `NOT IN`, and `BETWEEN`
 14. [Aggregate Functions](./14-aggregate-functions.md) - Practice using `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`
-15. [Group by](./15-group-by.md) - Group rows and calculate aggregate results for each group
+15. [GROUP BY](./15-group-by.md) - Group rows and calculate aggregate results for each group
+16. [String Functions](./15-string-functions.md) - Combine, extract, format, search, and aggregate text
+17. [Task 02](./16-task-02.md) - Practice queries using departments, salary sorting, `LIMIT`, `LIKE`, and string length
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)

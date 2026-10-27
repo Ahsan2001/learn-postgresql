@@ -2,7 +2,7 @@
 
 String functions help you work with text values such as names, emails, and descriptions. They are useful for formatting, cleaning, searching, and combining data.
 
-The examples below use the `employees` table from [Task 01](./11-task-01-create-bank-employee.md).
+The examples below use the `employees` table from [Task 01](./11-task-01.md).
 
 ## CONCAT
 
