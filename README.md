@@ -27,5 +27,6 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 15. [GROUP BY](./15-group-by.md) - Group rows and calculate aggregate results for each group
 16. [String Functions](./15-string-functions.md) - Combine, extract, format, search, and aggregate text
 17. [Task 02](./16-task-02.md) - Practice queries using departments, salary sorting, `LIMIT`, `LIKE`, and string length
+18. [Add or Remove a Table Column](./17-add-or-remove-column-in-table.md) - Change table columns using `ALTER TABLE`
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
