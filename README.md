@@ -29,5 +29,6 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 17. [Task 02](./16-task-02.md) - Practice queries using departments, salary sorting, `LIMIT`, `LIKE`, and string length
 18. [Add or Remove a Table Column](./17-add-or-remove-column-in-table.md) - Change table columns using `ALTER TABLE`
 19. [Rename a Table Column](./18-rename-column-in-table.md) - Rename a column using `ALTER TABLE`
+20. [Rename a Table](./19-rename-table-name.md) - Rename a table using `ALTER TABLE`
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
