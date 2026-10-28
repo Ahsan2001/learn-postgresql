@@ -24,14 +24,14 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 12. [SQL Clauses](./12-sql-clauses.md) - Practice using `WHERE`, `DISTINCT`, `ORDER BY`, `LIMIT`, and `LIKE`
 13. [SQL Operators](./13-sql-operators.md) - Practice using logical and relational operators, `IN`, `NOT IN`, and `BETWEEN`
 14. [Aggregate Functions](./14-aggregate-functions.md) - Practice using `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`
-15. [GROUP BY](./15-group-by.md) - Group rows and calculate aggregate results for each group
+15. [Group by](./15-group-by.md) - Group rows and calculate aggregate results for each group
 16. [String Functions](./15-string-functions.md) - Combine, extract, format, search, and aggregate text
 17. [Task 02](./16-task-02.md) - Practice queries using departments, salary sorting, `LIMIT`, `LIKE`, and string length
 18. [Add or Remove a Table Column](./17-add-or-remove-column-in-table.md) - Change table columns using `ALTER TABLE`
 19. [Rename a Table Column](./18-rename-column-in-table.md) - Rename a column using `ALTER TABLE`
 20. [Rename a Table](./19-rename-table-name.md) - Rename a table using `ALTER TABLE`
-21. [CHECK Constraints](./20-check-constraint.md) - Add, name, and remove `CHECK` constraints
-22. [CASE Expressions](./21-case-expression.md) - Use `CASE` expressions to return values based on conditions
+21. [Check Constraints](./20-check-constraint.md) - Add, name, and remove `CHECK` constraints
+22. [Case Expressions](./21-case-expression.md) - Use `CASE` expressions to return values based on conditions
 23. [Task 03](./22-task-03.md) - Practice using `CASE` expressions to calculate bonuses and count employees by salary category
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
