@@ -30,5 +30,8 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 18. [Add or Remove a Table Column](./17-add-or-remove-column-in-table.md) - Change table columns using `ALTER TABLE`
 19. [Rename a Table Column](./18-rename-column-in-table.md) - Rename a column using `ALTER TABLE`
 20. [Rename a Table](./19-rename-table-name.md) - Rename a table using `ALTER TABLE`
+21. [CHECK Constraints](./20-check-constraint.md) - Add, name, and remove `CHECK` constraints
+22. [CASE Expressions](./21-case-expression.md) - Use `CASE` expressions to return values based on conditions
+23. [Task 03](./22-task-03.md) - Practice using `CASE` expressions to calculate bonuses and count employees by salary category
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
