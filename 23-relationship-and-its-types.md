@@ -1,35 +1,41 @@
-# Relationships in SQL
+# Relationships in PostgreSQL
 
-A relationship in SQL connects tables through keys—typically a primary key in one table and a foreign key in another—to represent how their rows are associated.
+A **relationship** means how two tables are connected to each other.
 
-## Types of relationships
+**Example:** In a school database, we can connect the `students` table with the `courses` table.
 
-### One-to-one (1:1)
+There are three common types of relationships.
 
-Each row in one table is related to at most one row in the other table, and vice versa.
+## 1. One-to-One (1:1)
+
+**Definition:** One row in the first table is connected to only one row in the second table.
+
+**Example:** One person has one passport, and each passport belongs to one person.
 
 ```text
-PERSON                 PASSPORT
-person.id (PK)  1 ─── 1  passport.person_id (FK)
+PERSON  ─────────  PASSPORT
+  One                 One
 ```
 
-### One-to-many (1:N)
+## 2. One-to-Many (1:N)
 
-One row in the first table can be related to many rows in the second table; each row in the second table relates to one row in the first.
+**Definition:** One row in the first table can be connected to many rows in the second table.
+
+**Example:** One customer can place many orders, but each order belongs to one customer.
 
 ```text
-CUSTOMER                ORDER
-customer.id (PK) 1 ───<  order.customer_id (FK)
-                   one     many
+CUSTOMER  ───────<  ORDERS
+   One                Many
 ```
 
-### Many-to-many (M:N)
+## 3. Many-to-Many (M:N)
 
-Many rows in either table can relate to many rows in the other, represented by a junction table containing foreign keys to both tables.
+**Definition:** Many rows in the first table can be connected to many rows in the second table. We use a third table to connect them.
+
+**Example:** One student can join many courses, and one course can have many students.
 
 ```text
-STUDENT             ENROLLMENT              COURSE
-student.id (PK) 1 ───< student_id (FK)
-                              course_id (FK) >─── 1 course.id (PK)
-                  many       many
+STUDENTS  ─────  ENROLLMENTS  ─────  COURSES
+  Many              Connects           Many
+                    Both Tables
 ```
