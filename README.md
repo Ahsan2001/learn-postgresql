@@ -33,5 +33,6 @@ These lessons are designed to help beginners learn the core PostgreSQL operation
 21. [Check Constraints](./20-check-constraint.md) - Add, name, and remove `CHECK` constraints
 22. [Case Expressions](./21-case-expression.md) - Use `CASE` expressions to return values based on conditions
 23. [Task 03](./22-task-03.md) - Practice using `CASE` expressions to calculate bonuses and count employees by salary category
+24. [Foreign Keys](./24-foreign-keys.md) - Connect tables and enforce valid references with a foreign key
 
 ### Documentation by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan-3aa018226/)
